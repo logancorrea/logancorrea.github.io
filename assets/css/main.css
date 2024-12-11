@@ -2394,6 +2394,13 @@ input, select, textarea {
 				width: 100%;
 			}
 
+		.image.fit.profile img {
+    		max-width: 10%; 
+    		margin: 0 auto;
+    		display: block;
+			border-radius: 50% 
+		}	
+
 /* List */
 
 	ol {
@@ -2917,7 +2924,7 @@ input, select, textarea {
 	background-color: #4686a0;
 	color: rgba(255, 255, 255, 0.75);
 	background-attachment: fixed,							fixed,							fixed;
-	background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #202E1F);
+	background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #314537);
 	background-position: top left,						center center,					center center;
 	background-size: auto,							cover,							cover;
 	overflow: hidden;
@@ -3108,7 +3115,7 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #202E1F, #4fa49a  50%, #9dc66b 95%);
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #314537, #4fa49a   50%, #9dc66b 95%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
