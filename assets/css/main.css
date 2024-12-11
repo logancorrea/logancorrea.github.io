@@ -2822,7 +2822,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 3em 0 3em 0 ;
 	}
 
 		.main.style1 {
@@ -2847,6 +2847,7 @@ input, select, textarea {
 
 			.main.style2 h1, .main.style2 h2, .main.style2 h3, .main.style2 h4, .main.style2 h5, .main.style2 h6, .main.style2 strong, .main.style2 b {
 				color: #ffffff;
+				text-align: center;
 			}
 
 			.main.style2 header p {
@@ -2855,6 +2856,10 @@ input, select, textarea {
 
 			.main.style2 header.major:after {
 				background: #ffffff;
+			    display: block;
+				margin: 0 auto;
+				width: 10%;
+				margin-top: 25px;
 			}
 
 			.main.style2 input[type="submit"],
